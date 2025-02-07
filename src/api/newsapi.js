@@ -5,7 +5,7 @@ export const fetchStockNews = async (symbol) => {
       const response = await axios.get(`https://newsapi.org/v2/everything`, {
         params: {
           q: symbol,
-          apiKey: 'fac7cde1b7a94f7687bd27023d3024a2', 
+          apiKey: '', 
         },
       });
   
