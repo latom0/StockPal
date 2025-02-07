@@ -1,0 +1,104 @@
+.container {
+    max-width: 70%;
+    width: 50%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #0d0c1d;
+    border-radius: 8px;
+    font-size: 1.5em;
+    color: white;
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .input-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .input-container input[type="text"] {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ffffff;
+    border-radius: 4px;
+    flex: 1;
+    max-width: 70%;
+    margin-right: 10px;
+  }
+  
+  .input-container button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #293241;
+    color: white;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .select-container {
+    margin-bottom: 20px;
+  }
+  
+  .select-container label {
+    font-size: 16px;
+    margin-right: 10px;
+  }
+  
+  .select-container select {
+    padding: 8px;
+    font-size: 14px;
+  }
+  
+  .toggle-view-btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #293241;
+    color: white;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .loading {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .error {
+    color: #c50000;
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .chart-container,
+  .table-container {
+    margin-top: 20px;
+  }
+  
+  .table-container table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .table-container th,
+  .table-container td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+  }
+  
+  .table-container th {
+    background-color: #293241;
+  }
+  
+  .table-container tbody tr:hover {
+    background-color: #293241;
+  }
+  

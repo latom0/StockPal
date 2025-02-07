@@ -1,0 +1,22 @@
+.stock-overview {
+    padding: 20px;
+    background-color: #0d0c1d;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
+  }
+  
+  .stock-overview h2 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    color: white;
+  }
+  
+  .stock-overview p {
+    margin: 10px 0;
+    color: white;
+  }
+  
+  .stock-overview p strong {
+    color: #333;
+  }
+  

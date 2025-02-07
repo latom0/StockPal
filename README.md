@@ -1,70 +1,67 @@
-# Getting Started with Create React App
+# StockApp
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+StockApp is a basic stock analytics application that allows users to search for stock data, view stock overviews, and read related news. The app uses the Alpha Vantage API to fetch stock information and NewsApi for latest news related to specific stock
 
-## Available Scripts
+## Table of Contents
 
-In the project directory, you can run:
+- [Features](#features)
+- [Demo](#demo)
+- [Usage](#usage)
+- [Project Structure](#project-structure)
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Features
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **Stock Search**: Search for stock symbols and retrieve relevant data.
+- **Stock Overview**: View detailed information about a specific stock.
+- **Stock News**: Get the latest news articles related to a specific stock.
+- **Interactive Charts**: Visualize stock data with tables and interactive charts.
+- **Navigation Bar**: Easily navigate between different sections of the app.
 
-### `npm test`
+## Demo
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+A live demo of the app is available [here](https://go.screenpal.com/watch/cZiZDjVPxvE). 
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Usage
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. **Search for Stock News and Overviews**:
+   - Click on "News & Insights" on the navigation bar (default page)
+   - Enter a stock symbol in the search bar and click the "Search" button.
+   - View the stock overview and related news on the same page.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+2. **Navigate**:
+   - Use the navigation bar at the top to switch between different sections of the app.
 
-### `npm run eject`
+3. **View Stock Data**:
+   - Click on "Stock Data" in the navigation bar.
+   - Enter a stock symbol in the search bar then select a timeframe and click the "Search" button
+   - Switch between chart and table format by clicking the "Show Chart / Show Table" button
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Project Structure
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+```plaintext
+.
+├── public
+│   ├── index.html
+├── src
+│   ├── api
+│   │   └── alphaVantage.js
+│   │   └── newsapi.js
+│   ├── components
+│   │   ├── NavBar.js
+│   │   ├── NavBar.css
+│   │   ├── StockSearch.js
+│   │   ├── StockSearch.css
+│   │   ├── StockOverview.js
+│   │   ├── StockOverview.css
+│   │   ├── StockNews.js
+│   │   ├── StockNews.css
+│   ├── pages
+│   │   ├── MainPage.js
+│   │   ├── StockDataPage.js
+│   ├── App.js
+│   ├── App.css
+│   ├── index.js
+└── package.json
