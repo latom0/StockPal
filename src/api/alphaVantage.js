@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_KEY = '9GOGX8W762XEUYPY';
+const API_KEY = '';
 const BASE_URL = 'https://www.alphavantage.co/query';
 
 export const fetchStockData = async (symbol, timeRange) => {
